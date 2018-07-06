@@ -29,7 +29,7 @@ intensive if a simple pattern is being searched. We searched for simple word; he
 is totally I/O intensive here.
 
 
-Aspect 	Hadoop 	Spark 
+![alt text] 
 # Interactive Mode 
 Hadoop - There is no in-built interactive mode except Pig and Hive. 
 It has interactive mode. 
