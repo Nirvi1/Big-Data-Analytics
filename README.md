@@ -28,6 +28,13 @@ strings of a given pattern in a given text. WordCount is CPU intensive, but Grep
 intensive if a simple pattern is being searched. We searched for simple word; hence, Grep
 is totally I/O intensive here.
 
+# Results 
+TABLE 5.1. TIME VALUES OF WORDCOUNT AND GREP 
+Problem/Tool 	Hadoop 	Spark 
+Wordcount 	  5522ms 	 1400ms 
+Grep 	       5727ms 	500ms 
+ 
+The graphs below shows that Spark outperforms Hadoop in both the experiments. 
 
 ![alt text] 
 # Interactive Mode 
