@@ -36,7 +36,7 @@ Grep 	       5727ms 	500ms
  
 The graphs below shows that Spark outperforms Hadoop in both the experiments. 
 
-![alt text] https://github.com/Nirvi1/Big-Data-Analytics/blob/master/Graph_ExecutionTime_Hadoop_Spark.PNG
+![alt text](https://github.com/Nirvi1/Big-Data-Analytics/blob/master/Graph_ExecutionTime_Hadoop_Spark.PNG)
 # Interactive Mode 
 Hadoop - There is no in-built interactive mode except Pig and Hive. 
 It has interactive mode. 
