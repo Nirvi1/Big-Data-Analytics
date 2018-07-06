@@ -29,11 +29,7 @@ intensive if a simple pattern is being searched. We searched for simple word; he
 is totally I/O intensive here.
 
 # Results 
-TABLE 5.1. TIME VALUES OF WORDCOUNT AND GREP 
-Problem/Tool 	Hadoop 	Spark 
-Wordcount 	  5522ms 	 1400ms 
-Grep 	       5727ms 	500ms 
- 
+
 The graphs below shows that Spark outperforms Hadoop in both the experiments. 
 
 ![alt text](https://github.com/Nirvi1/Big-Data-Analytics/blob/master/Graph_ExecutionTime_Hadoop_Spark.PNG)
