@@ -15,3 +15,15 @@ practical analysis, we have created a cluster of three nodes for both the tools 
 executed WordCount and Grep to analyze performance difference of both the tools in
 terms of computing time. Our results show that Spark runs the jobs faster than
 Hadoop.
+
+# Implemented Problems
+We undertook some simple experiments for better illumination of the discussed tools.
+The experiments are aimed to show the improvements of Spark compared to Hadoop. We
+simply want to show that recent systems in the area of real-time and streaming big data
+are more suitable than Hadoop. For the case of real-time in-memory computing, we
+selected Spark. We executed simple programs WordCount and Grep, and compared the
+performance results of Spark to Hadoop on multinode cluster.
+WordCount counts occurrences of each word in a given text and Grep extracts matching
+strings of a given pattern in a given text. WordCount is CPU intensive, but Grep is I/O
+intensive if a simple pattern is being searched. We searched for simple word; hence, Grep
+is totally I/O intensive here.
