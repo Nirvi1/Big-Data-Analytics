@@ -27,3 +27,35 @@ WordCount counts occurrences of each word in a given text and Grep extracts matc
 strings of a given pattern in a given text. WordCount is CPU intensive, but Grep is I/O
 intensive if a simple pattern is being searched. We searched for simple word; hence, Grep
 is totally I/O intensive here.
+
+
+Aspect 	Hadoop 	Spark 
+# Interactive Mode 
+Hadoop - There is no in-built interactive mode except Pig and Hive. 
+It has interactive mode. 
+# Streaming 
+Hadoop- MapReduce is used for generating reports that help in finding answers to historical queries. 
+Spark- makes it possible to perform Streaming, Batch processing and machine learning all in the same cluster. 
+# Performance 
+Hadoop - MapReduce does not leverage the memory of the Hadoop cluster to the maximum. 	
+Spark is said to execute batch processing jobs near about 10 to 100 times faster than Hadoop MapReduce. 
+# Streaming 	
+Hadoop - MapReduce can just process a batch of stored data. 
+Spark can be used to modify the data in real time through Spark Streaming. 
+# Latency
+Hadoop - MapReduce is disk oriented completely. 	
+Spark ensures lower latency computations by caching the partial results across its memory of distributed workers. 
+# Ease of Coding 	
+Hadoop - Writing Hadoop pipelines is complex and lengthy 
+process 	
+Spark - Writing Spark code is always compact that writing Hadoop MapReduce code. 
+# Fault Tolerance 
+Hadoop is naturally resilient to system faults or failures since data are written to disk after every operation.
+Spark has similar built-in resiliency by virtue of the fact that its data objects are stored in something called resilient distributed datasets distributed across the data cluster. 
+# Difficulty 	
+MapReduce is difficult to program and needs abstractions. 
+Spark is easy to program and does not require any abstractions. 
+# Problem Optimization 
+Hadoop - In MapReduce, the programming has to be done in many stages. 	
+Spark - Use of a DAG based processing engine, as it allows Spark to do a lot of optimization. Where it can optimize and do computations in a single stage so it avoids unwanted reducer tasks. 
+ 
